@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="An awsome portfolio template. It is a single page website.">
+    <title>MoGo - An Awsome single page site</title>
+    <!-- FAVICON ICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/logo-favicon-32x32.png">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- FONT AWSOME -->
+    <script src="https://kit.fontawesome.com/ca495ed078.js" crossorigin="anonymous"></script>
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- START HEADER SECTION -->
+
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a href="#home">
+                    <img src="resources/img/main-logo.png" alt="MoGo" class="logo">
+                </a>
+                <ul class="main-nav">
+                    <li><a class="main-nav-a" href="#about">about</a></li>
+                    <li><a class="main-nav-a" href="#service">service</a></li>
+                    <li><a class="main-nav-a" href="#team">team</a></li>
+                    <li><a class="main-nav-a" href="#portfolio">portfolio</a></li>
+                    <li><a class="main-nav-a" href="#blog">blog</a></li>
+                    <li><a class="main-nav-a" href="javascript:void(0)"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a class="main-nav-a" href="javascript:void(0)"><i class="fas fa-search"></i></a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div class="navoverlay" id="myNav">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times;</a>
+                        <div class="navoverlay-content">
+                            <a onclick="closeNav()" href="#about">about</a>
+                            <a onclick="closeNav()" href="#service">service</a>
+                            <a onclick="closeNav()" href="#team">team</a>
+                            <a onclick="closeNav()" href="#portfolio">portfolio</a>
+                            <a onclick="closeNav()" href="#blog">blog</a>
+                            <a onclick="closeNav()" href="javascript:void(0)"><i class="fas fa-shopping-cart"></i></a>
+                            <a onclick="closeNav()" href="javascript:void(0)"><i class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="hero-text-box">
+                <p class="hero-txt">creative template</p>
+                <h1>welcome to mogo</h1>
+                <a href="#home" class="btn learn-more-btn">learn more</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- END HEADER SECTION -->
+
+    <!-- START ABOUT SECTION -->
+
+    <section class="about-section js--about-section" id="about">
+        <div class="row">
+            <h3>what we do</h3>
+            <h2>story about us</h2>
+            <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3 about-box">
+                <div class="about-image-box">
+                    <img src="resources/img/about-1.jpg" alt="Super Team">
+                    <div class="about-box-hover">
+                        <div class="about-box-hover-content">
+                            <i class="fas fa-user-friends"></i>
+                            <p>super team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3 box">
+                <div class="about-image-box">
+                    <img src="resources/img/about-2.jpg" alt="Super Team">
+                    <div class="about-box-hover">
+                        <div class="about-box-hover-content">
+                            <i class="fas fa-user-friends"></i>
+                            <p>super team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3 box">
+                <div class="about-image-box">
+                    <img src="resources/img/about-3.jpg" alt="Super Team">
+                    <div class="about-box-hover">
+                        <div class="about-box-hover-content">
+                            <i class="fas fa-user-friends"></i>
+                            <p>super team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END ABOUT SECTION -->
+
+    <!-- START STATISTIC SECTION -->
+
+    <section class="statistic-section">
+        <div class="row clearfix">
+            <div class="statistic-box">
+                <span>42</span>
+                <p>web design projects</p>
+            </div>
+            <div class="statistic-box">
+                <span>123</span>
+                <p>happy client</p>
+            </div>
+            <div class="statistic-box">
+                <span>15</span>
+                <p>award winner</p>
+            </div>
+            <div class="statistic-box">
+                <span>99</span>
+                <p>cup of coffee</p>
+            </div>
+            <div class="statistic-box">
+                <span>24</span>
+                <p>members</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- END STATISTIC SECTION -->
+
+    <!-- START AMAZING SECTION -->
+
+    <section class="amazing-section">
+        <div class="row">
+            <h3>we work with</h3>
+            <h2>amazing services</h2>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div class="col span_1_of_3 amazing-box amazing-box-row-1 clearfix">
+                    <div class="amazing-logo">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="amazing-description">
+                        <h4>photography</h4>
+                        <p class="body-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 amazing-box amazing-box-row-1 clearfix">
+                    <div class="amazing-logo">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="amazing-description">
+                        <h4>web design</h4>
+                        <p class="body-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 amazing-box amazing-box-row-1 clearfix">
+                    <div class="amazing-logo">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="amazing-description">
+                        <h4>creative</h4>
+                        <p class="body-description">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="amazing-hr">
+            <div class="row">
+                <div class="col span_1_of_3 amazing-box amazing-box-row-2 clearfix">
+                    <div class="amazing-logo">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="amazing-description">
+                        <h4>seo</h4>
+                        <p class="body-description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 amazing-box amazing-box-row-2 clearfix">
+                    <div class="amazing-logo">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="amazing-description">
+                        <h4>css/html</h4>
+                        <p class="body-description">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3 amazing-box amazing-box-row-2 amazing-box-row-2-last clearfix">
+                    <div class="amazing-logo">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                    <div class="amazing-description">
+                        <h4>digital</h4>
+                        <p class="body-description">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END AMAZING SECTION -->
+
+    <!-- START DESIGN SECTION -->
+
+    <section class="design-section">
+        <div class="row">
+            <h3>for all devices</h3>
+            <h2>unique design</h2>
+        </div>
+        <div class="row">
+            <div class="design-image-tab">
+                <img src="resources/img/design-1.png" alt="Tab">
+                <div class="design-iamge-phn">
+                    <img src="resources/img/design-2.png" alt="Phone">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END DESIGN SECTION -->
+
+    <!-- START SERVICE SECTION -->
+
+    <section class="service-section" id="service">
+        <div class="row">
+            <h3>service</h3>
+            <h2>what we do</h2>
+            <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="row service-row clearfix">
+            <div class="col span_1_of_2 service-box">
+                <img src="resources/img/service.jpg" alt="Service">
+            </div>
+            <div class="col span_1_of_2 service-box">
+                <div class="accordion-wrap accordion-1">
+                    <div class="accordion-header active clearfix">
+                        <i class="far fa-image accordion-header-icon"></i>
+                        <span>photography</span>
+                        <i class="fas fa-chevron-down accordion-header-angle"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-2">
+                    <div class="accordion-header clearfix">
+                        <i class="fas fa-sliders-h accordion-header-icon accorfion-2-icon"></i>
+                        <span>creativity</span>
+                        <i class="fas fa-chevron-down accordion-header-angle"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-3">
+                    <div class="accordion-header clearfix">
+                        <i class="fas fa-bullseye accordion-header-icon"></i>
+                        <span>web design</span>
+                        <i class="fas fa-chevron-down accordion-header-angle"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END SERVICE SECTION -->
+
+    <!-- START COMMENT 1 SECTION -->
+
+    <section class="comment-section comment-1-section">
+        <div class="row slider-container">
+            <div class="slide1 fade comment-row clearfix slide">
+                <div class="comment-1-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="comment-1-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Jon Doe</span>
+                </div>
+            </div>
+            <div class="slide1 fade comment-row clearfix slide">
+                <div class="comment-1-icon">
+                    <i class="far fa-comments"></i>
+                </div>
+                <div class="comment-1-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Matthew Dix</span>
+                </div>
+            </div>
+            <div class="slide1 fade comment-row clearfix slide">
+                <div class="comment-1-icon">
+                    <i class="fas fa-comments-dollar"></i>
+                </div>
+                <div class="comment-1-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Christopher Campbell</span>
+                </div>
+            </div>
+            <div class="slide1 fade comment-row clearfix slide">
+                <div class="comment-1-icon">
+                    <i class="far fa-comment-alt"></i>
+                </div>
+                <div class="comment-1-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Michael Fertig</span>
+                </div>
+            </div>
+            <div class="slide1 fade comment-row clearfix slide">
+                <div class="comment-1-icon">
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <div class="comment-1-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Joshua Earle</span>
+                </div>
+            </div>
+            <a class="comment-1-previous arrows" onclick="plusSlides1(-1)"><i class="fas fa-chevron-left comment-angle-left"></i></a>
+            <a class="comment-1-next arrows" onclick="plusSlides1(1)"><i class="fas fa-chevron-right comment-angle-right"></i></a>
+        </div>
+    </section>
+
+    <!-- END COMMENT 1 SECTION -->
+
+    <!-- START TEAM SECTION -->
+
+    <section class="team-section" id="team">
+        <div class="row">
+            <h3>who we are</h3>
+            <h2>meet our team</h2>
+            <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3">
+                <div class="team-image">
+                    <img src="resources/img/team-1.jpg" alt="Matthew Dix">
+                    <div class="team-overlay">
+                        <div class="team-overlay-container">
+                            <div class="team-social clearfix">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-text">
+                    <h5 class="team-member-name">Matthew Dix</h5>
+                    <p class="team-member-title">grapic design</p>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="team-image">
+                    <img src="resources/img/team-2.jpg" alt="Matthew Dix">
+                    <div class="team-overlay">
+                        <div class="team-overlay-container">
+                            <div class="team-social">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-text">
+                    <h5 class="team-member-name">Christopher Campbell</h5>
+                    <p class="team-member-title">Branding/UX design</p>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="team-image">
+                    <img src="resources/img/team-3.jpg" alt="Matthew Dix">
+                    <div class="team-overlay">
+                        <div class="team-overlay-container">
+                            <div class="team-social">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-text">
+                    <h5 class="team-member-name">Michael Fertig </h5>
+                    <p class="team-member-title">Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END TEAM SECTION -->
+
+    <!-- START CLIENT LOGO SECTION -->
+
+    <section class="client-logo">
+        <div class="row">
+            <div class="col span_1_of_6 client-logo-box">
+                <img src="resources/img/client-logo-1.png" alt="Client logo 1" class="client-logo-img">
+            </div>
+            <div class="col span_1_of_6 client-logo-box">
+                <img src="resources/img/client-logo-2.png" alt="Client logo 2" class="client-logo-img">
+            </div>
+            <div class="col span_1_of_6 client-logo-box">
+                <img src="resources/img/client-logo-3.png" alt="Client logo 3" class="client-logo-img">
+            </div>
+            <div class="col span_1_of_6 client-logo-box">
+                <img src="resources/img/client-logo-4.png" alt="Client logo 4" class="client-logo-img">
+            </div>
+            <div class="col span_1_of_6 client-logo-box">
+                <img src="resources/img/client-logo-5.png" alt="Client logo 5" class="client-logo-img">
+            </div>
+            <div class="col span_1_of_6 client-logo-box">
+                <img src="resources/img/client-logo-6.png" alt="Client logo 6" class="client-logo-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- END CLIENT LOGO SECTION -->
+
+    <!-- START PORTFOLIO SECTION -->
+
+    <section class="portfolio-section" id="portfolio">
+        <div class="row">
+            <h3>what we do</h3>
+            <h2>some of our work</h2>
+            <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="portfolio-image clearfix">
+            <div class="portfolio-col portfolio-col-1">
+                <div class="portfolio-col-row">
+                    <img src="resources/img/work-1.jpg" alt="Work 1">
+                    <div class="portfolio-image-overlay">
+                        <div class="portfolio-image-overlay-container">
+                            <i class="far fa-image"></i>
+                            <h5>creatively designed</h5>
+                            <p class="portfolio-image-text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-col-row">
+                    <img src="resources/img/work-2.jpg" alt="Work 1">
+                    <div class="portfolio-image-overlay">
+                        <div class="portfolio-image-overlay-container">
+                            <i class="far fa-image"></i>
+                            <h5>creatively designed</h5>
+                            <p class="portfolio-image-text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-col portfolio-col-2">
+                <div class="portfolio-col-row">
+                    <img src="resources/img/work-3.jpg" alt="Work 1">
+                    <div class="portfolio-image-overlay">
+                        <div class="portfolio-image-overlay-container">
+                            <i class="far fa-image"></i>
+                            <h5>creatively designed</h5>
+                            <p class="portfolio-image-text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-col-row">
+                    <img src="resources/img/work-4.jpg" alt="Work 1">
+                    <div class="portfolio-image-overlay">
+                        <div class="portfolio-image-overlay-container">
+                            <i class="far fa-image"></i>
+                            <h5>creatively designed</h5>
+                            <p class="portfolio-image-text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-col portfolio-col-3">
+                <div class="portfolio-col-3-row">
+                    <img src="resources/img/work-5.jpg" alt="Work 1">
+                    <div class="portfolio-image-overlay">
+                        <div class="portfolio-image-overlay-container">
+                            <i class="far fa-image"></i>
+                            <h5>creatively designed</h5>
+                            <p class="portfolio-image-text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-col portfolio-col-4">
+                <div class="portfolio-col-row">
+                    <img src="resources/img/work-6.jpg" alt="Work 1">
+                    <div class="portfolio-image-overlay">
+                        <div class="portfolio-image-overlay-container">
+                            <i class="far fa-image"></i>
+                            <h5>creatively designed</h5>
+                            <p class="portfolio-image-text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-col-row">
+                    <img src="resources/img/work-7.jpg" alt="Work 1">
+                    <div class="portfolio-image-overlay">
+                        <div class="portfolio-image-overlay-container">
+                            <i class="far fa-image"></i>
+                            <h5>creatively designed</h5>
+                            <p class="portfolio-image-text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END PORTFOLIO SECTION -->
+
+    <!-- START COMMENT 2 SECTION -->
+
+    <section class="comment-2-section">
+        <div class="row slider-container">
+            <div class="slide2 fade comment-2-row clearfix slide">
+                <div class="comment-2-image">
+                    <img src="resources/img/testimonial.png" alt="Joshua Earle">
+                </div>
+                <div class="comment-2-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Joshua Earle</span>
+                </div>
+            </div>
+            <div class="slide2 fade comment-2-row clearfix slide">
+                <div class="comment-2-image">
+                    <img src="resources/img/testimonial.png" alt="Joshua Earle">
+                </div>
+                <div class="comment-2-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Matthew Dix</span>
+                </div>
+            </div>
+            <div class="slide2 fade comment-2-row clearfix slide">
+                <div class="comment-2-image">
+                    <img src="resources/img/testimonial.png" alt="Joshua Earle">
+                </div>
+                <div class="comment-2-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Christopher Campbell</span>
+                </div>
+            </div>
+            <div class="slide2 fade comment-2-row clearfix slide">
+                <div class="comment-2-image">
+                    <img src="resources/img/testimonial.png" alt="Joshua Earle">
+                </div>
+                <div class="comment-2-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Michael Fertig</span>
+                </div>
+            </div>
+            <div class="slide2 fade comment-2-row clearfix slide">
+                <div class="comment-2-image">
+                    <img src="resources/img/testimonial.png" alt="Joshua Earle">
+                </div>
+                <div class="comment-2-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                    <span class="comment-1-hr"></span>
+                    <span class="commenter-1-name">Joshua Earle</span>
+                </div>
+            </div>
+            <a class="comment-1-previous arrows" onclick="plusSlides(-1)"><i class="fas fa-chevron-left comment-angle-left"></i></a>
+            <a class="comment-1-next arrows" onclick="plusSlides(1)"><i class="fas fa-chevron-right comment-angle-right"></i></a>
+        </div>
+    </section>
+
+    <!-- END COMMENT 2 SECTION -->
+
+    <!-- START TESTIMONIAL SECTION -->
+
+    <section class="testimonial-section">
+        <div class="row">
+            <h3>happy clients</h3>
+            <h2>what people say</h2>
+        </div>
+        <div class="row testimonial-row">
+            <div class="col span_1_of_2 clearfix">
+                <div class="client-image">
+                    <img src="resources/img/client-1.png" alt="Matthew Dix">
+                </div>
+                <div class="client-text">
+                    <h5>Matthew Dix</h5>
+                    <h6>graphic design</h6>
+                    <hr class="portfolio-hr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                </div>
+            </div>
+            <div class="col span_1_of_2 clearfix">
+                <div class="client-image">
+                    <img src="resources/img/client-2.png" alt="Nick Karvounis">
+                </div>
+                <div class="client-text">
+                    <h5>Nick Karvounis</h5>
+                    <h6>graphic design</h6>
+                    <hr class="portfolio-hr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row testimonial-row">
+            <div class="col span_1_of_2 clearfix">
+                <div class="client-image">
+                    <img src="resources/img/client-3.png" alt="Jaelynn Castillo ">
+                </div>
+                <div class="client-text">
+                    <h5>Jaelynn Castillo </h5>
+                    <h6>graphic design</h6>
+                    <hr class="portfolio-hr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                </div>
+            </div>
+            <div class="col span_1_of_2 clearfix">
+                <div class="client-image">
+                    <img src="resources/img/client-4.png" alt="Mike Petrucci">
+                </div>
+                <div class="client-text">
+                    <h5>Mike Petrucci</h5>
+                    <h6>graphic design</h6>
+                    <hr class="portfolio-hr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END TESTIMONIAL SECTION -->
+
+    <!-- START BLOG SECTION -->
+
+    <section class="blog-section" id="blog">
+        <div class="row">
+            <h3>our stories</h3>
+            <h2>latest blog</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3">
+                <div class="blog-image">
+                    <img src="resources/img/blog-1.jpg" alt="Blog 1">
+                    <div class="blog-date-body">
+                        <span class="blog-date">15</span>
+                        <span class="blog-month">jan</span>
+                    </div>
+                </div>
+                <div class="blog-text">
+                    <h5>Lorem ipsum dolor sit amet</h5>
+                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr class="blog-hr">
+                    <div class="blog-counter">
+                        <div class="blog-view">
+                            <span class="blog-view-i"><i class="fas fa-eye"></i></span>
+                            <span class="blog-view-s">542</span>
+                        </div>
+                        <div class="blog-comment">
+                            <span class="blog-view-i"><i class="fas fa-comment-dots"></i></span>
+                            <span class="blog-view-s">17</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="blog-image">
+                    <img src="resources/img/blog-2.jpg" alt="Blog 2">
+                    <div class="blog-date-body">
+                        <span class="blog-date">14</span>
+                        <span class="blog-month">jan</span>
+                    </div>
+                </div>
+                <div class="blog-text">
+                    <h5>sed do eiusmod tempor</h5>
+                    <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr class="blog-hr">
+                    <div class="blog-counter">
+                        <div class="blog-view">
+                            <span class="blog-view-i"><i class="fas fa-eye"></i></span>
+                            <span class="blog-view-s">992</span>
+                        </div>
+                        <div class="blog-comment">
+                            <span class="blog-view-i"><i class="fas fa-comment-dots"></i></span>
+                            <span class="blog-view-s">42</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_3">
+                <div class="blog-image">
+                    <img src="resources/img/blog-3.jpg" alt="Blog 3">
+                    <div class="blog-date-body">
+                        <span class="blog-date">12</span>
+                        <span class="blog-month">jan</span>
+                    </div>
+                </div>
+                <div class="blog-text">
+                    <h5>incididunt ut labore et dolore</h5>
+                    <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr class="blog-hr">
+                    <div class="blog-counter">
+                        <div class="blog-view">
+                            <span class="blog-view-i"><i class="fas fa-eye"></i></span>
+                            <span class="blog-view-s">1560</span>
+                        </div>
+                        <div class="blog-comment">
+                            <span class="blog-view-i"><i class="fas fa-comment-dots"></i></span>
+                            <span class="blog-view-s">98</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END BLOG SECTION -->
+
+    <!-- START MAP SECTION -->
+
+    <section class="map-section">
+        <div class="row map-row">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            <p>open map</p>
+            <hr class="map-hr">
+        </div>
+    </section>
+
+    <!-- END MAP SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+        <div class="row">
+            <div class="footer-content clearfix">
+                <div class="bottom-col bottom-col-1">
+                    <a href="#home"><img src="resources/img/bottom-logo.png" alt="MoGo"></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="bottom-follower">
+                        <span class="bottom-follower-n">15k</span>
+                        <span class="bottom-follower-t">followers</span>
+                    </div>
+                    <hr class="bottom-hr">
+                    <div class="bottom-social">
+                        <span>follow us:</span>
+                        <ul class="bottom-social-icon">
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="javascript:void(0)" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="https://www.tumblr.com" target="_blank"><i class="fab fa-tumblr"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe-form clearfix">
+                        <form>
+                            <input name="Email" type="email" placeholder="your email..." class="sub-email" required>
+                            <input type="submit" value="subscribe" class="sub-btn">
+                        </form>
+                    </div>
+                </div>
+                <div class="bottom-col bottom-col-2">
+                    <p class="bottom-header">blog</p>
+                    <div class="bottom-blog">
+                        <div class="bottom-blog-row clearfix">
+                            <div class="bottom-blog-image">
+                                <img src="resources/img/bottom-blog-1.jpg" alt="Blog 1">
+                            </div>
+                            <div class="bottom-blog-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                <span class="bottom-blog-date">Jan 9, 2016</span>
+                            </div>
+                        </div>
+                        <div class="bottom-blog-row clearfix">
+                            <div class="bottom-blog-image">
+                                <img src="resources/img/bottom-blog-2.jpg" alt="Blog 2">
+                            </div>
+                            <div class="bottom-blog-text">
+                                <p>Consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                <span class="bottom-blog-date">Jan 9, 2016</span>
+                            </div>
+                        </div>
+                        <div class="bottom-blog-row clearfix">
+                            <div class="bottom-blog-image">
+                                <img src="resources/img/bottom-blog-3.jpg" alt="Blog 3">
+                            </div>
+                            <div class="bottom-blog-text">
+                                <p>sed do eiusmod tempor incididunt ut labore</p>
+                                <span class="bottom-blog-date">Jan 9, 2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-col bottom-col-3">
+                    <p class="bottom-header">instagram</p>
+                    <div class="bottom-instagram">
+                        <div class="bottom-isntagram-row clearfix">
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-1.jpg" alt="Instagram-1">
+                            </div>
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-2.jpg" alt="Instagram-2">
+                            </div>
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-3.jpg" alt="Instagram-3">
+                            </div>
+                        </div>
+                        <div class="bottom-isntagram-row clearfix">
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-4.jpg" alt="Instagram-4">
+                            </div>
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-5.jpg" alt="Instagram-5">
+                            </div>
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-6.jpg" alt="Instagram-6">
+                            </div>
+                        </div>
+                        <div class="bottom-isntagram-row clearfix">
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-7.jpg" alt="Instagram-7">
+                            </div>
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-8.jpg" alt="Instagram-8">
+                            </div>
+                            <div class="instagram-col">
+                                <img src="resources/img/instagram-9.jpg" alt="Instagram-9">
+                            </div>
+                        </div>
+                    </div>
+                    <span class="bottom-view-more"><a href="javascript:void(0)">View more photos</a></span>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="footer-text">
+                <p>© 2016 MoGo free PSD template by<span>Laaqiq</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="mybtn" title="Back to top">Top</button>
+
+    <!-- END FOOTER SECTION -->
+
+
+
+    <!-- JS SCRIPTS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/main.js"></script>
+
+
+
+</body>
+
+</html>

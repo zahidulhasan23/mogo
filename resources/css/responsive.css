@@ -1,0 +1,243 @@
+@media only screen and (max-width: 1200px) {
+    .row {
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 57.5%;
+    }
+    
+    h1 {
+        font-size: 13rem;
+    }
+    
+    .service-row {
+        height: 31.5vw;
+    }
+    
+    .service-box {
+        height: 100%;
+    }
+    
+    .accordion-header {
+        height: 5.7vw;
+    }
+    
+    .active + .accordion-body {
+        height: 12.5vw;
+    }
+    
+    .comment-row {
+        height: 17vw;
+    }
+    
+    .comment-1-icon {
+        width: 17vw;
+    }
+    
+    .comment-1-text {
+        width: 63.5vw;
+    }
+    
+    .comment-2-row {
+        height: 21vw;
+    }
+    
+    .comment-2-image {
+        width: 17.5vw;
+    }
+    
+    .comment-2-text {
+        width: 62.5vw;
+    }
+    
+    .design-iamge-phn {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    
+    h1 {
+        font-size: 10rem;
+    }
+    
+    .hero-txt {
+        font-size: 5.2rem;
+    }
+    
+    header {
+        height: 85vh;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-menu span {
+        display: block;
+    }
+    .bottom-blog-text {
+        padding: 1.1rem 3rem 1.1rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 52.5%;
+    }
+    
+    .amazing-box {
+        padding: 0;
+    }
+    
+    .amazing-description {
+        padding-left: 1rem;
+    }
+    
+    .comment-1-text p {
+        font-size: 1.5rem;
+    }
+    
+    .comment-1-hr {
+        margin-bottom: .3rem;
+    }
+    
+    .commenter-1-name {
+        font-size: 2rem;
+    }
+    
+    .comment-2-text p {
+        font-size: 1.5rem;
+    }
+    
+    .bottom-blog-text {
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    
+    .accordion-header-icon {
+        line-height: 3rem;
+    }
+    
+    .accordion-header span {
+        line-height: 3rem;
+    }
+    
+    .active + .accordion-body {
+        height: 11.9vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 42.5%;
+    }
+    
+    .statistic-box p {
+        font-size: 1rem;
+    }
+    
+    .statistic-box span {
+        font-size: 5.2rem
+    }
+    
+    .amazing-hr {
+        display: none;
+    }
+    
+    .amazing-box-row-1 {
+        padding: 2.5rem 0;
+        border-bottom: .1rem solid #e5e5e5;
+    }
+    .amazing-box-row-1:first-child {
+        padding-top: 0;
+    }
+    
+    .amazing-box-row-2 {
+        padding: 2.5rem 0;
+        border-bottom: .1rem solid #e5e5e5;
+    }
+    
+    .amazing-box-row-2:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    
+    .service-row {
+        height: auto;
+    }
+    
+    .service-box:first-child {
+        margin-bottom: 1.5rem;
+    }
+    
+    .accordion-header {
+        height: 7.5vw;
+    }
+    
+    .comment-1-text {
+        width: 60.5vw;
+        padding: 0 1.5rem;
+    }
+    
+    .comment-1-text p {
+        line-height: 2.6rem;
+    }
+    
+    .comment-2-text {
+        width: 59.5vw;
+        padding: 1rem 2rem;
+    }
+    
+    .comment-2-text p {
+        line-height: 2.2rem;
+    }
+    
+    .span_1_of_6 {
+        width: 32.26%;
+    }
+    
+    .client-logo-box {
+        height: 25rem;
+    }
+    
+    .testimonial-row:last-child {
+        margin-top: 0;
+    }
+    
+    .portfolio-hr {
+        margin: 0.5rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
